@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E2329"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".SignIn">
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/ic_soccer_amico_1" />
+
+    <EditText
+        android:id="@+id/Email1"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:drawableStart="@drawable/ic_user"
+        android:drawableLeft="@drawable/ic_user"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="Email/Username"
+        android:inputType="text"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="#8A8A8A" />
+
+    <EditText
+        android:id="@+id/Password1"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:drawableStart="@drawable/ic_pwd"
+        android:drawableLeft="@drawable/ic_user"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="#8A8A8A" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSignIn1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        app:backgroundTint="@color/biru"
+        app:cornerRadius="50dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:text="Sign In" />
+
+    <TextView
+        android:id="@+id/textdont"
+        android:layout_width="wrap_content"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_height="wrap_content"
+        android:text="Don't you have an account yet?"
+        android:textColor="#FFFFFF" />
+
+    <ImageButton
+        android:id="@+id/btn_SignUp1"
+        android:layout_width="82dp"
+        android:layout_height="29dp"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="165dp"
+        android:layout_gravity="center"
+        android:background="#1E2329"
+        app:srcCompat="@drawable/sign_up"
+        tools:ignore="VectorDrawableCompat" />
+</LinearLayout>

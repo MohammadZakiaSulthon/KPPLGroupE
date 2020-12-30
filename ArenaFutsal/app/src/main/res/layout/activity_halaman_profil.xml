@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E2329"
+    android:orientation="vertical"
+    tools:context=".halamanProfil">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="37dp"
+        android:layout_margin="24dp"
+        android:src="@drawable/ic_baseline_arrow_back_ios_24"
+        app:tint="@android:color/white" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Profil"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="92dp"
+        android:layout_gravity="center"
+        android:layout_margin="24dp"
+        android:src="@drawable/ic_baseline_person_24"
+        app:tint="@android:color/white" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Email"
+        android:textColorHint="#808080"
+        android:inputType="text"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="200sp"
+        android:hint="Password"
+        android:layout_margin="10dp"
+        android:textColorHint="#808080"
+        android:inputType="text"
+        android:textColor="@android:color/white" />
+    <Button
+        android:layout_width="135dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:background="@drawable/logout"
+        android:text="Logout"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
